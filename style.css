@@ -107,3 +107,18 @@ background: linear-gradient(217deg, rgba(45,49,66,1) 0%, rgba(82,118,189,1) 51%,
     height: auto;
 }
 /* ! fine seconda sezione inizio form */
+.speaker-form-header {
+    text-align: center;
+    background-color: #F6F7F8;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    
+    width: 80%;
+    margin: 40px 0;
+    padding: 50px;
+  }
+  
+  .speaker-form-header h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }

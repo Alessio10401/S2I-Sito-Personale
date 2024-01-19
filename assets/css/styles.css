@@ -87,6 +87,9 @@ background-repeat: no-repeat;
 
   @media screen and (min-width: 768px) and (max-width: 1024px) {
     /*tablet */
+  .navbar-nav{
+      font-size: 25px;
+  }
  .bio {
         flex-wrap: wrap;
       }

@@ -54,6 +54,11 @@ background-size: cover;
 /* inizio responsive*/
 /* ! cellulari */
 @media screen and (max-width: 600px) {
+    nav img{
+      margin-top: 2px;
+      height: 50px;
+      width: 60px;
+    }
     .bio {
       margin: 0;
       flex-wrap: wrap; 

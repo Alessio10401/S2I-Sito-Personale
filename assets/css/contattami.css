@@ -1,41 +1,54 @@
-.form-container{
-    display: flex;
-    flex-direction: column;
-    background-color: brown;
-    align-items: center;
-    text-align: center;
-    border: 1px solid red;
+.container{
+    margin-top: 20px;
+    height: 750px;
+    width:500px;
+    background-color: #fffcf9;
+    box-shadow: 1px 5px 20px #192e3d;
 }
-.form-part{
-        background-color: #F6F7F8;
-        border: 1px solid #D6D9DC;
-        border-radius: 3px;
-        width: 80%;
-        padding: 50px;
-        margin: 0 0 40px 0;
-      }
-      .form-row {
-        margin-bottom: 40px;
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        flex-wrap: wrap;
+.row{
+    
+    width: 1000px;
+}
+.container h1{
+    margin-left: 500px;
+}
+.form-group{
+    box-shadow: 1px 5px 20px #9599E2;
+    border: 2px solid #9599E2;
+    border-radius: 5px;
+    margin-left: 370px;
+    height: 100%;
+    width: 50%;
+}
+.form-group label{
+    margin-left: 10px;
+    margin-top: 2px;
+}
+.btn-primary{
+    
+    width: 300px;
+    height: 80px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 480px;
+}
+/*Cellulati*/
+@media screen and (max-width: 600px) {
+    .container{
+        width: 450px;
         height: auto;
-        width: auto;
-      }
-      
-      .form-row input[type='text'] ,
-      .form-row input[type='email'] {
-        text-align: center;
-        background-color: #FFFFFF;
-        border: 1px solid #D6D9DC;
-        border-radius: 3px;
-        width: 50%;
-        padding: 20px;
-        font-size: 14px;
-      }
-      
-      .form-row label {
-        margin-bottom: 15px;
-      }
-
+    }
+    .form-group,.btn-primary,.container h1{
+        margin: 0%;
+        margin-left: 80px;
+    }
+    .form-group label{
+        font-size: 20px;
+    }
+    .row{
+        width: 600px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+}

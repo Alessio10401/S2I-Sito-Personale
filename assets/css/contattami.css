@@ -35,10 +35,20 @@
 /*Cellulati*/
 @media screen and (max-width: 600px) {
     .container{
-        width: 450px;
-        height: auto;
+        height: 600px;
+        width:auto;
     }
-    .form-group,.btn-primary,.container h1{
+    .form-group{
+        width: 80%;
+        margin: 0;
+        width: auto;
+    }
+    .container h1{
+        font-size: 40px;
+        margin: 0;
+        margin-left: 25%;
+    }
+    .btn-primary{
         margin: 0%;
         margin-left: 80px;
     }
@@ -46,9 +56,35 @@
         font-size: 20px;
     }
     .row{
-        width: 600px;
+        height: 400px;
+        width: auto;
     }
+    .col.align-self-center{
+        padding: 0px;
+        height: 350px;
+        width: auto;
+} 
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    
+    .container{
+        height: 600px;
+        width:auto;
+    }
+    .container h1{
+        margin: 0;
+        margin-top: 20px;
+        margin-left: 25%;
+        font-size: 35px;
+    }
+     .form-group{
+        margin: 0;
+        font-size: 20px;
+     margin-top: 20px;
+     width: 70%;
+        }
+    .btn-primary{
+        margin: 0;
+        margin-top: 10px;
+        margin-left: 20%;
+    }
 }

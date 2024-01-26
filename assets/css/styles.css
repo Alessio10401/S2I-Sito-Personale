@@ -13,6 +13,9 @@ background-size: cover;
     margin: 20px;
 }
 .bio img{
+  border-radius: 15px;
+  margin-top: 25px;
+  box-shadow: 1px 5px 20px #192e3d;
     height: 750px;
     width: auto;
 }
@@ -39,7 +42,8 @@ background-size: cover;
         margin-right: 20px;
         height: 750px;
         width: auto;
-        border-radius: 10px
+        border-radius: 10px;
+        box-shadow: 1px 5px 20px #192e3d;
     }
 
 .bio_text2{
@@ -64,7 +68,7 @@ background-size: cover;
       flex-wrap: wrap; 
     }
     .bio img {
-        margin-left: 20%;
+        margin-left: 25%;
         height: 350px;
         width: auto;
     }
@@ -100,7 +104,7 @@ background-size: cover;
         flex-wrap: wrap;
       }
   .bio img{
-    margin-left: 15%;
+    margin-left: 20%;
   }
   .bio_text{
     font-size: 25px;

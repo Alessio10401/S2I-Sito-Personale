@@ -1,90 +1,14 @@
 .container{
-    margin-top: 20px;
-    height: 750px;
-    width:500px;
-    background-color: #fffcf9;
+    border-radius: 15px;
     box-shadow: 1px 5px 20px #192e3d;
+    padding: 50px;
+    background-color: whitesmoke;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.row{
-    
-    width: 1000px;
-}
-.container h1{
-    margin-left: 500px;
-}
-.form-group{
-    box-shadow: 1px 5px 20px #9599E2;
-    border: 2px solid #9599E2;
-    border-radius: 5px;
-    margin-left: 370px;
-    height: 100%;
-    width: 50%;
-}
-.form-group label{
-    margin-left: 10px;
-    margin-top: 2px;
-}
-.btn-primary{
-    
-    width: 300px;
-    height: 80px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    margin-left: 480px;
-}
-/*Cellulati*/
-@media screen and (max-width: 600px) {
-    .container{
-        height: 600px;
-        width:auto;
-    }
-    .form-group{
-        width: 80%;
-        margin: 0;
-        width: auto;
-    }
-    .container h1{
-        font-size: 40px;
-        margin: 0;
-        margin-left: 25%;
-    }
-    .btn-primary{
-        margin: 0%;
-        margin-left: 80px;
-    }
-    .form-group label{
-        font-size: 20px;
-    }
-    .row{
-        height: 400px;
-        width: auto;
-    }
-    .col.align-self-center{
-        padding: 0px;
-        height: 350px;
-        width: auto;
-} 
-}
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .container{
-        height: 600px;
-        width:auto;
-    }
-    .container h1{
-        margin: 0;
-        margin-top: 20px;
-        margin-left: 25%;
-        font-size: 35px;
-    }
-     .form-group{
-        margin: 0;
-        font-size: 20px;
-     margin-top: 20px;
-     width: 70%;
-        }
-    .btn-primary{
-        margin: 0;
-        margin-top: 10px;
-        margin-left: 20%;
-    }
+.container h2{
+    text-align: center;
+    font-size: 55px;
 }

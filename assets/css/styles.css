@@ -64,7 +64,6 @@ background-size: cover;
 footer{
   background-color:#294d67 ;
   height: auto;
-  width: 100vw;
   color: #fffcf9;
   padding-top:40px ;
   box-shadow: 1px 5px 20px #192e3d;
@@ -85,11 +84,10 @@ footer{
 .socials{
   list-style: none;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin: 16px 0 48px 0;
+  justify-content: center;
 }
 .socials a i{
+  margin: 10px;
   font-size: 35px;
   color: #fffcf9;
 }

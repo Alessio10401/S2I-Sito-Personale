@@ -129,7 +129,7 @@ footer{
 /* ! cellulari */
 @media screen and (max-width: 600px) {
   body{
-    height: 100vh;
+    height: 100%;
   }
     nav img{
       margin-top: 2px;
@@ -177,6 +177,11 @@ footer{
     }
     body{
       height: 100%;
+    }
+    nav img{
+      margin-top: 2px;
+      height: 50px;
+      width: 60px;
     }
   .navbar-nav{
       font-size: 25px;
